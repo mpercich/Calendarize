@@ -9,17 +9,10 @@
 /* Begin PBXBuildFile section */
 		BF808FF117153CC700513E3D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF808FF017153CC700513E3D /* Foundation.framework */; };
 		BF808FF617153CC700513E3D /* TouchTime.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BF808FF517153CC700513E3D /* TouchTime.h */; };
-		BF80900017153CC700513E3D /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF808FFF17153CC700513E3D /* SenTestingKit.framework */; };
-		BF80900217153CC700513E3D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF80900117153CC700513E3D /* UIKit.framework */; };
-		BF80900317153CC700513E3D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF808FF017153CC700513E3D /* Foundation.framework */; };
-		BF80900617153CC700513E3D /* libTouchTime.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF808FED17153CC700513E3D /* libTouchTime.a */; };
-		BF80900C17153CC700513E3D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BF80900A17153CC700513E3D /* InfoPlist.strings */; };
-		BF80900F17153CC700513E3D /* TouchTimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF80900E17153CC700513E3D /* TouchTimeTests.m */; };
 		BF80902B17153D9C00513E3D /* astro.c in Sources */ = {isa = PBXBuildFile; fileRef = BF80901A17153D9C00513E3D /* astro.c */; };
 		BF80902D17153D9C00513E3D /* dow.c in Sources */ = {isa = PBXBuildFile; fileRef = BF80901C17153D9C00513E3D /* dow.c */; };
 		BF80902F17153D9C00513E3D /* interval.c in Sources */ = {isa = PBXBuildFile; fileRef = BF80901E17153D9C00513E3D /* interval.c */; };
 		BF80903117153D9C00513E3D /* parse_date.c in Sources */ = {isa = PBXBuildFile; fileRef = BF80901F17153D9C00513E3D /* parse_date.c */; };
-		BF80903317153D9C00513E3D /* parse_date.re in Resources */ = {isa = PBXBuildFile; fileRef = BF80902017153D9C00513E3D /* parse_date.re */; };
 		BF80903417153D9C00513E3D /* parse_iso_intervals.c in Sources */ = {isa = PBXBuildFile; fileRef = BF80902117153D9C00513E3D /* parse_iso_intervals.c */; };
 		BF80903617153D9C00513E3D /* parse_tz.c in Sources */ = {isa = PBXBuildFile; fileRef = BF80902217153D9C00513E3D /* parse_tz.c */; };
 		BF80903817153D9C00513E3D /* timelib.c in Sources */ = {isa = PBXBuildFile; fileRef = BF80902517153D9C00513E3D /* timelib.c */; };
@@ -27,11 +20,21 @@
 		BF80903C17153D9C00513E3D /* unixtime2tm.c in Sources */ = {isa = PBXBuildFile; fileRef = BF80902A17153D9C00513E3D /* unixtime2tm.c */; };
 		BF80904017153DB600513E3D /* cpp_touchtime.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF80903E17153DB600513E3D /* cpp_touchtime.cpp */; };
 		BF80904217153DF000513E3D /* TouchTime.mm in Sources */ = {isa = PBXBuildFile; fileRef = BF80904117153DF000513E3D /* TouchTime.mm */; };
-		BF80904317153E9800513E3D /* TouchTime.mm in Sources */ = {isa = PBXBuildFile; fileRef = BF80904117153DF000513E3D /* TouchTime.mm */; };
+		D188F90A1E390FA200FBA331 /* libTouchTime.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF808FED17153CC700513E3D /* libTouchTime.a */; };
+		D188F9101E3916B100FBA331 /* TouchTimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF80900E17153CC700513E3D /* TouchTimeTests.m */; };
+		D188F9181E392F1C00FBA331 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D188F9171E392F1C00FBA331 /* main.swift */; };
+		D188F91D1E3931B000FBA331 /* libTouchTime.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF808FED17153CC700513E3D /* libTouchTime.a */; };
+		D188F9211E39453800FBA331 /* TextSelection.m in Sources */ = {isa = PBXBuildFile; fileRef = D188F91F1E39441A00FBA331 /* TextSelection.m */; };
+		D188F9291E39487600FBA331 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D188F9281E39487600FBA331 /* AppDelegate.swift */; };
+		D188F92B1E39487600FBA331 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D188F92A1E39487600FBA331 /* ViewController.swift */; };
+		D188F92D1E39487600FBA331 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D188F92C1E39487600FBA331 /* Assets.xcassets */; };
+		D188F9301E39487600FBA331 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D188F92E1E39487600FBA331 /* Main.storyboard */; };
+		D188F9351E394B0A00FBA331 /* TextSelection.m in Sources */ = {isa = PBXBuildFile; fileRef = D188F91F1E39441A00FBA331 /* TextSelection.m */; };
+		D188F9361E394BE800FBA331 /* libTouchTime.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF808FED17153CC700513E3D /* libTouchTime.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		BF80900417153CC700513E3D /* PBXContainerItemProxy */ = {
+		D188F90B1E390FA200FBA331 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BF808FE517153CC700513E3D /* Project object */;
 			proxyType = 1;
@@ -51,6 +54,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D188F9131E392F1C00FBA331 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -58,10 +70,7 @@
 		BF808FF017153CC700513E3D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BF808FF417153CC700513E3D /* TouchTime-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TouchTime-Prefix.pch"; sourceTree = "<group>"; };
 		BF808FF517153CC700513E3D /* TouchTime.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TouchTime.h; sourceTree = "<group>"; };
-		BF808FFE17153CC700513E3D /* TouchTimeTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchTimeTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BF808FFF17153CC700513E3D /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		BF80900117153CC700513E3D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		BF80900917153CC700513E3D /* TouchTimeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TouchTimeTests-Info.plist"; sourceTree = "<group>"; };
+		BF80900917153CC700513E3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF80900B17153CC700513E3D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BF80900D17153CC700513E3D /* TouchTimeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TouchTimeTests.h; sourceTree = "<group>"; };
 		BF80900E17153CC700513E3D /* TouchTimeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchTimeTests.m; sourceTree = "<group>"; };
@@ -85,6 +94,18 @@
 		BF80903E17153DB600513E3D /* cpp_touchtime.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = cpp_touchtime.cpp; path = ../common/cpp_touchtime.cpp; sourceTree = "<group>"; };
 		BF80903F17153DB600513E3D /* cpp_touchtime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cpp_touchtime.h; path = ../common/cpp_touchtime.h; sourceTree = "<group>"; };
 		BF80904117153DF000513E3D /* TouchTime.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TouchTime.mm; sourceTree = "<group>"; };
+		D188F9051E390FA200FBA331 /* TouchTimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchTimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D188F9151E392F1C00FBA331 /* touchtime */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = touchtime; sourceTree = BUILT_PRODUCTS_DIR; };
+		D188F9171E392F1C00FBA331 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		D188F91C1E392FFD00FBA331 /* TouchTime-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "TouchTime-Bridging-Header.h"; path = "../TouchTime/TouchTime-Bridging-Header.h"; sourceTree = "<group>"; };
+		D188F91E1E39441A00FBA331 /* TextSelection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextSelection.h; sourceTree = "<group>"; };
+		D188F91F1E39441A00FBA331 /* TextSelection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextSelection.m; sourceTree = "<group>"; };
+		D188F9261E39487600FBA331 /* Add Event from Selection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Add Event from Selection.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D188F9281E39487600FBA331 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D188F92A1E39487600FBA331 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D188F92C1E39487600FBA331 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D188F92F1E39487600FBA331 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D188F9311E39487600FBA331 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,14 +117,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BF808FFA17153CC700513E3D /* Frameworks */ = {
+		D188F9021E390FA200FBA331 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF80900017153CC700513E3D /* SenTestingKit.framework in Frameworks */,
-				BF80900217153CC700513E3D /* UIKit.framework in Frameworks */,
-				BF80900317153CC700513E3D /* Foundation.framework in Frameworks */,
-				BF80900617153CC700513E3D /* libTouchTime.a in Frameworks */,
+				D188F90A1E390FA200FBA331 /* libTouchTime.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D188F9121E392F1C00FBA331 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D188F91D1E3931B000FBA331 /* libTouchTime.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D188F9231E39487600FBA331 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D188F9361E394BE800FBA331 /* libTouchTime.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,8 +148,11 @@
 			isa = PBXGroup;
 			children = (
 				BF80901817153D7B00513E3D /* common */,
-				BF808FF217153CC700513E3D /* TouchTime */,
 				BF80900717153CC700513E3D /* TouchTimeTests */,
+				BF808FF217153CC700513E3D /* TouchTime */,
+				D188F9201E39442600FBA331 /* TextSelection */,
+				D188F9161E392F1C00FBA331 /* touchtime */,
+				D188F9271E39487600FBA331 /* Add Event from Selection */,
 				BF808FEF17153CC700513E3D /* Frameworks */,
 				BF808FEE17153CC700513E3D /* Products */,
 			);
@@ -125,7 +162,9 @@
 			isa = PBXGroup;
 			children = (
 				BF808FED17153CC700513E3D /* libTouchTime.a */,
-				BF808FFE17153CC700513E3D /* TouchTimeTests.octest */,
+				D188F9051E390FA200FBA331 /* TouchTimeTests.xctest */,
+				D188F9151E392F1C00FBA331 /* touchtime */,
+				D188F9261E39487600FBA331 /* Add Event from Selection.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -134,8 +173,6 @@
 			isa = PBXGroup;
 			children = (
 				BF808FF017153CC700513E3D /* Foundation.framework */,
-				BF808FFF17153CC700513E3D /* SenTestingKit.framework */,
-				BF80900117153CC700513E3D /* UIKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -171,7 +208,7 @@
 		BF80900817153CC700513E3D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				BF80900917153CC700513E3D /* TouchTimeTests-Info.plist */,
+				BF80900917153CC700513E3D /* Info.plist */,
 				BF80900A17153CC700513E3D /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -211,6 +248,37 @@
 			name = php;
 			sourceTree = "<group>";
 		};
+		D188F9161E392F1C00FBA331 /* touchtime */ = {
+			isa = PBXGroup;
+			children = (
+				D188F91C1E392FFD00FBA331 /* TouchTime-Bridging-Header.h */,
+				D188F9171E392F1C00FBA331 /* main.swift */,
+			);
+			path = touchtime;
+			sourceTree = "<group>";
+		};
+		D188F9201E39442600FBA331 /* TextSelection */ = {
+			isa = PBXGroup;
+			children = (
+				D188F91E1E39441A00FBA331 /* TextSelection.h */,
+				D188F91F1E39441A00FBA331 /* TextSelection.m */,
+			);
+			name = TextSelection;
+			path = TouchTime;
+			sourceTree = "<group>";
+		};
+		D188F9271E39487600FBA331 /* Add Event from Selection */ = {
+			isa = PBXGroup;
+			children = (
+				D188F9281E39487600FBA331 /* AppDelegate.swift */,
+				D188F92A1E39487600FBA331 /* ViewController.swift */,
+				D188F92C1E39487600FBA331 /* Assets.xcassets */,
+				D188F92E1E39487600FBA331 /* Main.storyboard */,
+				D188F9311E39487600FBA331 /* Info.plist */,
+			);
+			path = "Add Event from Selection";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -231,24 +299,57 @@
 			productReference = BF808FED17153CC700513E3D /* libTouchTime.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		BF808FFD17153CC700513E3D /* TouchTimeTests */ = {
+		D188F9041E390FA200FBA331 /* TouchTimeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BF80901517153CC700513E3D /* Build configuration list for PBXNativeTarget "TouchTimeTests" */;
+			buildConfigurationList = D188F90D1E390FA200FBA331 /* Build configuration list for PBXNativeTarget "TouchTimeTests" */;
 			buildPhases = (
-				BF808FF917153CC700513E3D /* Sources */,
-				BF808FFA17153CC700513E3D /* Frameworks */,
-				BF808FFB17153CC700513E3D /* Resources */,
-				BF808FFC17153CC700513E3D /* ShellScript */,
+				D188F9011E390FA200FBA331 /* Sources */,
+				D188F9021E390FA200FBA331 /* Frameworks */,
+				D188F9031E390FA200FBA331 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				BF80900517153CC700513E3D /* PBXTargetDependency */,
+				D188F90C1E390FA200FBA331 /* PBXTargetDependency */,
 			);
 			name = TouchTimeTests;
 			productName = TouchTimeTests;
-			productReference = BF808FFE17153CC700513E3D /* TouchTimeTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productReference = D188F9051E390FA200FBA331 /* TouchTimeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D188F9141E392F1C00FBA331 /* touchtime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D188F9191E392F1C00FBA331 /* Build configuration list for PBXNativeTarget "touchtime" */;
+			buildPhases = (
+				D188F9111E392F1C00FBA331 /* Sources */,
+				D188F9121E392F1C00FBA331 /* Frameworks */,
+				D188F9131E392F1C00FBA331 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = touchtime;
+			productName = touchtime;
+			productReference = D188F9151E392F1C00FBA331 /* touchtime */;
+			productType = "com.apple.product-type.tool";
+		};
+		D188F9251E39487600FBA331 /* Add Event from Selection */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D188F9321E39487600FBA331 /* Build configuration list for PBXNativeTarget "Add Event from Selection" */;
+			buildPhases = (
+				D188F9221E39487600FBA331 /* Sources */,
+				D188F9231E39487600FBA331 /* Frameworks */,
+				D188F9241E39487600FBA331 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Add Event from Selection";
+			productName = "Add Event from Selection";
+			productReference = D188F9261E39487600FBA331 /* Add Event from Selection.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -256,8 +357,26 @@
 		BF808FE517153CC700513E3D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0460;
-				ORGANIZATIONNAME = "Jim Heising (HAARD)";
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Michele Percich";
+				TargetAttributes = {
+					D188F9041E390FA200FBA331 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = FBBFZNEHZV;
+						ProvisioningStyle = Automatic;
+					};
+					D188F9141E392F1C00FBA331 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = FBBFZNEHZV;
+						ProvisioningStyle = Automatic;
+					};
+					D188F9251E39487600FBA331 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = FBBFZNEHZV;
+						ProvisioningStyle = Automatic;
+					};
+				};
 			};
 			buildConfigurationList = BF808FE817153CC700513E3D /* Build configuration list for PBXProject "TouchTime" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -265,6 +384,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = BF808FE417153CC700513E3D;
 			productRefGroup = BF808FEE17153CC700513E3D /* Products */;
@@ -272,38 +392,31 @@
 			projectRoot = "";
 			targets = (
 				BF808FEC17153CC700513E3D /* TouchTime */,
-				BF808FFD17153CC700513E3D /* TouchTimeTests */,
+				D188F9041E390FA200FBA331 /* TouchTimeTests */,
+				D188F9141E392F1C00FBA331 /* touchtime */,
+				D188F9251E39487600FBA331 /* Add Event from Selection */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		BF808FFB17153CC700513E3D /* Resources */ = {
+		D188F9031E390FA200FBA331 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF80900C17153CC700513E3D /* InfoPlist.strings in Resources */,
-				BF80903317153D9C00513E3D /* parse_date.re in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D188F9241E39487600FBA331 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D188F92D1E39487600FBA331 /* Assets.xcassets in Resources */,
+				D188F9301E39487600FBA331 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		BF808FFC17153CC700513E3D /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BF808FE917153CC700513E3D /* Sources */ = {
@@ -324,22 +437,40 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BF808FF917153CC700513E3D /* Sources */ = {
+		D188F9011E390FA200FBA331 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF80900F17153CC700513E3D /* TouchTimeTests.m in Sources */,
-				BF80904317153E9800513E3D /* TouchTime.mm in Sources */,
+				D188F9101E3916B100FBA331 /* TouchTimeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D188F9111E392F1C00FBA331 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D188F9181E392F1C00FBA331 /* main.swift in Sources */,
+				D188F9211E39453800FBA331 /* TextSelection.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D188F9221E39487600FBA331 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D188F92B1E39487600FBA331 /* ViewController.swift in Sources */,
+				D188F9351E394B0A00FBA331 /* TextSelection.m in Sources */,
+				D188F9291E39487600FBA331 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		BF80900517153CC700513E3D /* PBXTargetDependency */ = {
+		D188F90C1E390FA200FBA331 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = BF808FEC17153CC700513E3D /* TouchTime */;
-			targetProxy = BF80900417153CC700513E3D /* PBXContainerItemProxy */;
+			targetProxy = D188F90B1E390FA200FBA331 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -352,6 +483,14 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
+		D188F92E1E39487600FBA331 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D188F92F1E39487600FBA331 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -361,24 +500,35 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -390,17 +540,27 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -415,6 +575,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = macosx;
 			};
 			name = Debug;
 		};
@@ -427,36 +588,167 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = macosx;
 			};
 			name = Release;
 		};
-		BF80901617153CC700513E3D /* Debug */ = {
+		D188F90E1E390FA200FBA331 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TouchTime/TouchTime-Prefix.pch";
-				INFOPLIST_FILE = "TouchTimeTests/TouchTimeTests-Info.plist";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = FBBFZNEHZV;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = TouchTimeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "-lstdc++";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mpercich.TouchTimeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Debug;
 		};
-		BF80901717153CC700513E3D /* Release */ = {
+		D188F90F1E390FA200FBA331 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TouchTime/TouchTime-Prefix.pch";
-				INFOPLIST_FILE = "TouchTimeTests/TouchTimeTests-Info.plist";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = FBBFZNEHZV;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = TouchTimeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "-lstdc++";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mpercich.TouchTimeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		D188F91A1E392F1C00FBA331 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CODE_SIGN_IDENTITY = "-";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = FBBFZNEHZV;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "TouchTime/TouchTime-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D188F91B1E392F1C00FBA331 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = FBBFZNEHZV;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "TouchTime/TouchTime-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D188F9331E39487600FBA331 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = FBBFZNEHZV;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "Add Event from Selection/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "-lstdc++";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mpercich.Add-Event-from-Selection";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "TouchTime/TouchTime-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D188F9341E39487600FBA331 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = FBBFZNEHZV;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "Add Event from Selection/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "-lstdc++";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mpercich.Add-Event-from-Selection";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "TouchTime/TouchTime-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -481,14 +773,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BF80901517153CC700513E3D /* Build configuration list for PBXNativeTarget "TouchTimeTests" */ = {
+		D188F90D1E390FA200FBA331 /* Build configuration list for PBXNativeTarget "TouchTimeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BF80901617153CC700513E3D /* Debug */,
-				BF80901717153CC700513E3D /* Release */,
+				D188F90E1E390FA200FBA331 /* Debug */,
+				D188F90F1E390FA200FBA331 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+		};
+		D188F9191E392F1C00FBA331 /* Build configuration list for PBXNativeTarget "touchtime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D188F91A1E392F1C00FBA331 /* Debug */,
+				D188F91B1E392F1C00FBA331 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D188F9321E39487600FBA331 /* Build configuration list for PBXNativeTarget "Add Event from Selection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D188F9331E39487600FBA331 /* Debug */,
+				D188F9341E39487600FBA331 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
