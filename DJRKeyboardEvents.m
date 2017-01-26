@@ -1,11 +1,3 @@
-/* .h */
-
-@interface DJRKeyboardEvents : NSObject
-
-+ (void)sendCommandC;
-
-@end
-
 /* .m */
 
 #import "DJRKeyboardTools.h"
