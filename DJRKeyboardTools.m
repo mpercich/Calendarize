@@ -1,22 +1,3 @@
-/* .h */
-
-#import <Foundation/Foundation.h>
-#import <Carbon/Carbon.h>
-
-@interface DJRKeyboardTools : NSObject
-{
-        TISInputSourceRef            layout;
-        const UCKeyboardLayout* layoutData;
-    id                      keyCodeCache;
-}
-
-+ (id)sharedInstance;
-- (TISInputSourceRef)keyboardLayout;
-- (NSString *)translateKeyCode:(short)keyCode;
-- (CGKeyCode)keyCodeForChar:(unichar)aChar;
-
-@end
-
 /* .m */
 #import "DJRKeyboardTools.h"
 
@@ -38,11 +19,11 @@
 - (void)dealloc
 {
     if (keyCodeCache) {
-        [keyCodeCache release];
+        //[keyCodeCache release];
         keyCodeCache = nil;
     }
     if (layout) CFRelease(layout);
-    [super dealloc];
+    //[super dealloc];
 }
 
 + (id)sharedInstance
@@ -54,7 +35,7 @@
                 instance = [[DJRKeyboardTools alloc] initWithKeyboardLayout:currentLayout];
         }
         else if ([instance keyboardLayout] != currentLayout) {
-                [instance release];
+                //[instance release];
                 instance = [[DJRKeyboardTools alloc] initWithKeyboardLayout:currentLayout];
         }
         return instance;
