@@ -33,6 +33,12 @@
 		D188F9301E39487600FBA331 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D188F92E1E39487600FBA331 /* Main.storyboard */; };
 		D188F9351E394B0A00FBA331 /* TextSelection.m in Sources */ = {isa = PBXBuildFile; fileRef = D188F91F1E39441A00FBA331 /* TextSelection.m */; };
 		D188F94A1E3959FA00FBA331 /* NSPasteboard+SaveRestore.m in Sources */ = {isa = PBXBuildFile; fileRef = D188F9481E39581100FBA331 /* NSPasteboard+SaveRestore.m */; };
+		D1E1D4C11E3AAA89007BC01B /* DJRPasteboardProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E1D4BA1E3AAA89007BC01B /* DJRPasteboardProxy.m */; };
+		D1E1D4C21E3AAA89007BC01B /* DJRPasteboardProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E1D4BA1E3AAA89007BC01B /* DJRPasteboardProxy.m */; };
+		D1E1D4C31E3AAA89007BC01B /* DJRKeyboardTools.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E1D4BD1E3AAA89007BC01B /* DJRKeyboardTools.m */; };
+		D1E1D4C41E3AAA89007BC01B /* DJRKeyboardTools.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E1D4BD1E3AAA89007BC01B /* DJRKeyboardTools.m */; };
+		D1E1D4C51E3AAA89007BC01B /* DJRKeyboardEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E1D4C01E3AAA89007BC01B /* DJRKeyboardEvents.m */; };
+		D1E1D4C61E3AAA89007BC01B /* DJRKeyboardEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E1D4C01E3AAA89007BC01B /* DJRKeyboardEvents.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -110,6 +116,12 @@
 		D188F9311E39487600FBA331 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D188F9471E39581100FBA331 /* NSPasteboard+SaveRestore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSPasteboard+SaveRestore.h"; sourceTree = "<group>"; };
 		D188F9481E39581100FBA331 /* NSPasteboard+SaveRestore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSPasteboard+SaveRestore.m"; sourceTree = "<group>"; };
+		D1E1D4B91E3AAA89007BC01B /* DJRPasteboardProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJRPasteboardProxy.h; sourceTree = "<group>"; };
+		D1E1D4BA1E3AAA89007BC01B /* DJRPasteboardProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJRPasteboardProxy.m; sourceTree = "<group>"; };
+		D1E1D4BC1E3AAA89007BC01B /* DJRKeyboardTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJRKeyboardTools.h; sourceTree = "<group>"; };
+		D1E1D4BD1E3AAA89007BC01B /* DJRKeyboardTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJRKeyboardTools.m; sourceTree = "<group>"; };
+		D1E1D4BF1E3AAA89007BC01B /* DJRKeyboardEvents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJRKeyboardEvents.h; sourceTree = "<group>"; };
+		D1E1D4C01E3AAA89007BC01B /* DJRKeyboardEvents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJRKeyboardEvents.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,10 +163,10 @@
 		BF808FE417153CC700513E3D = {
 			isa = PBXGroup;
 			children = (
+				D1E1D4B81E3AAA89007BC01B /* DJRPasteboardProxy */,
+				D1E1D4BB1E3AAA89007BC01B /* DJRKeyboardTools */,
+				D1E1D4BE1E3AAA89007BC01B /* DJRKeyboardEvents */,
 				D188F9461E39581100FBA331 /* NSPasteboard+SaveRestore */,
-				D188F9371E3954C000FBA331 /* DJRPasteboardProxy */,
-				D188F9391E3954C000FBA331 /* DJRKeyboardTools */,
-				D188F93B1E3954C000FBA331 /* DJRKeyboardEvents */,
 				BF80901817153D7B00513E3D /* common */,
 				BF80900717153CC700513E3D /* TouchTimeTests */,
 				BF808FF217153CC700513E3D /* TouchTime */,
@@ -287,30 +299,6 @@
 			path = "Add Event from Selection";
 			sourceTree = "<group>";
 		};
-		D188F9371E3954C000FBA331 /* DJRPasteboardProxy */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = DJRPasteboardProxy;
-			path = 7326400;
-			sourceTree = "<group>";
-		};
-		D188F9391E3954C000FBA331 /* DJRKeyboardTools */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = DJRKeyboardTools;
-			path = 7326432;
-			sourceTree = "<group>";
-		};
-		D188F93B1E3954C000FBA331 /* DJRKeyboardEvents */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = DJRKeyboardEvents;
-			path = 7326451;
-			sourceTree = "<group>";
-		};
 		D188F9461E39581100FBA331 /* NSPasteboard+SaveRestore */ = {
 			isa = PBXGroup;
 			children = (
@@ -318,6 +306,33 @@
 				D188F9481E39581100FBA331 /* NSPasteboard+SaveRestore.m */,
 			);
 			path = "NSPasteboard+SaveRestore";
+			sourceTree = "<group>";
+		};
+		D1E1D4B81E3AAA89007BC01B /* DJRPasteboardProxy */ = {
+			isa = PBXGroup;
+			children = (
+				D1E1D4B91E3AAA89007BC01B /* DJRPasteboardProxy.h */,
+				D1E1D4BA1E3AAA89007BC01B /* DJRPasteboardProxy.m */,
+			);
+			path = DJRPasteboardProxy;
+			sourceTree = "<group>";
+		};
+		D1E1D4BB1E3AAA89007BC01B /* DJRKeyboardTools */ = {
+			isa = PBXGroup;
+			children = (
+				D1E1D4BC1E3AAA89007BC01B /* DJRKeyboardTools.h */,
+				D1E1D4BD1E3AAA89007BC01B /* DJRKeyboardTools.m */,
+			);
+			path = DJRKeyboardTools;
+			sourceTree = "<group>";
+		};
+		D1E1D4BE1E3AAA89007BC01B /* DJRKeyboardEvents */ = {
+			isa = PBXGroup;
+			children = (
+				D1E1D4BF1E3AAA89007BC01B /* DJRKeyboardEvents.h */,
+				D1E1D4C01E3AAA89007BC01B /* DJRKeyboardEvents.m */,
+			);
+			path = DJRKeyboardEvents;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -490,8 +505,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1E1D4C51E3AAA89007BC01B /* DJRKeyboardEvents.m in Sources */,
 				D188F9181E392F1C00FBA331 /* main.swift in Sources */,
 				D16F4C371E39EB9000F162FB /* NSPasteboard+SaveRestore.m in Sources */,
+				D1E1D4C31E3AAA89007BC01B /* DJRKeyboardTools.m in Sources */,
+				D1E1D4C11E3AAA89007BC01B /* DJRPasteboardProxy.m in Sources */,
 				D188F9211E39453800FBA331 /* TextSelection.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -502,8 +520,11 @@
 			files = (
 				D188F92B1E39487600FBA331 /* ViewController.swift in Sources */,
 				D188F94A1E3959FA00FBA331 /* NSPasteboard+SaveRestore.m in Sources */,
+				D1E1D4C61E3AAA89007BC01B /* DJRKeyboardEvents.m in Sources */,
 				D188F9351E394B0A00FBA331 /* TextSelection.m in Sources */,
 				D188F9291E39487600FBA331 /* AppDelegate.swift in Sources */,
+				D1E1D4C21E3AAA89007BC01B /* DJRPasteboardProxy.m in Sources */,
+				D1E1D4C41E3AAA89007BC01B /* DJRKeyboardTools.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
