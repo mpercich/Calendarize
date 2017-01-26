@@ -1,16 +1,7 @@
-/* .h */
-
-@interface DJRPasteboardProxy : NSObject
-
-@property NSPasteboard *pasteboard;
-
-@end
-
 /* .m */
 
 #import "DJRPasteboardProxy.h"
 #import "DJRKeyboardEvents.h"
-#import "NSPasteboard+SaveRestore.h"
 
 @implementation DJRPasteboardProxy
 
@@ -50,7 +41,7 @@
             NSString * availableType = [self.pasteboard availableTypeFromArray:[NSArray arrayWithObjects:NSPasteboardTypeString, nil]];
             if (availableType) {
                 selection = [self.pasteboard stringForType:availableType];
-//                NSLog(@"Selected text: %@", selection);
+               //NSLog(@"Selected text: %@", selection);
             }
         }
         insist = insist && attempts > 0;
