@@ -14,14 +14,15 @@ class ViewController: NSViewController {
     @IBOutlet weak var date: NSTextField!
     
     @IBAction func go(_ sender: Any) {
-        selection.stringValue = TextSelection.getText()
+        DJRKeyboardEvents.sendCommandC()
+        selection.stringValue = DJRPasteboardProxy.selectedText()
         if let date = TouchTime.string(toDate: "friday, 17 february") {
             let dateFormatter = DateFormatter()
             dateFormatter.dateStyle = DateFormatter.Style.medium
             self.date.stringValue = dateFormatter.string(from: date)
         }
     }
-        
+   
     override func viewDidLoad() {
         super.viewDidLoad()
 

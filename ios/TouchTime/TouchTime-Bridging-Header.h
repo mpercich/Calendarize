@@ -14,4 +14,5 @@
 
 
 #import "TouchTime.h"
-#import "TextSelection.h"
+#import "DJRKeyboardEvents.h"
+#import "DJRPasteboardProxy.h"
