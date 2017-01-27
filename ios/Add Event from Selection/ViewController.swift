@@ -7,6 +7,7 @@
 //
 
 import Cocoa
+import Python
 
 class ViewController: NSViewController {
 
@@ -14,12 +15,15 @@ class ViewController: NSViewController {
     @IBOutlet weak var date: NSTextField!
     
     @IBAction func go(_ sender: Any) {
-        DJRKeyboardEvents.sendCommandC()
-        selection.stringValue = DJRPasteboardProxy.selectedText()
-        if let date = TouchTime.string(toDate: "friday, 17 february") {
-            let dateFormatter = DateFormatter()
-            dateFormatter.dateStyle = DateFormatter.Style.medium
-            self.date.stringValue = dateFormatter.string(from: date)
+        //DJRKeyboardEvents.sendCommandC()
+        //selection.stringValue = DJRPasteboardProxy.selectedText()
+        if let pythonPath = Bundle.main.path(forResource: "python", ofType: nil, inDirectory: "dateparser/bin") {
+            Py_SetProgramName(UnsafeMutablePointer(mutating: (pythonPath as NSString).utf8String!))
+            if let date = TouchTime.string(toDate: "friday, 17 february") {
+                let dateFormatter = DateFormatter()
+                dateFormatter.dateStyle = DateFormatter.Style.medium
+                self.date.stringValue = dateFormatter.string(from: date)
+            }
         }
     }
    
