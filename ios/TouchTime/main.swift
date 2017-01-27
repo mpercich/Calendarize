@@ -10,7 +10,8 @@ import Foundation
 
 //DJRKeyboardEvents.sendCommandC()
 //NSLog(DJRPasteboardProxy.selectedText())
-if let date = TouchTime.string(toDate: DJRPasteboardProxy.selectedText()) {
+//if let date = TouchTime.string(toDate: DJRPasteboardProxy.selectedText()) {
+if let date = TouchTime.string(toDate: "17 feb 2017 6PM") {
     let dateFormatter = DateFormatter()
     dateFormatter.dateStyle = DateFormatter.Style.medium
     //print(dateFormatter.string(from: date))
