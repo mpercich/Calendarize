@@ -107,7 +107,6 @@
 		49C9B1421E3B630A00E2540B /* CalendarizeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalendarizeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		49C9B1461E3B630A00E2540B /* CalendarizeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarizeTests.swift; sourceTree = "<group>"; };
 		49C9B1481E3B630A00E2540B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		49C9B1521E3B8F0200E2540B /* RunPython.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunPython.h; sourceTree = "<group>"; };
 		49C9B1531E3B8F0200E2540B /* RunPython.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunPython.m; sourceTree = "<group>"; };
 		49C9B1561E3B92BF00E2540B /* Python.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Python.framework; path = System/Library/Frameworks/Python.framework; sourceTree = SDKROOT; };
 		BF808FED17153CC700513E3D /* libCalendarize Lib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libCalendarize Lib.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -152,6 +151,7 @@
 		D188F9311E39487600FBA331 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D188F9471E39581100FBA331 /* NSPasteboard+SaveRestore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSPasteboard+SaveRestore.h"; sourceTree = "<group>"; };
 		D188F9481E39581100FBA331 /* NSPasteboard+SaveRestore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSPasteboard+SaveRestore.m"; sourceTree = "<group>"; };
+		D1B0E4811E3E026F009C9692 /* RunPython.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunPython.h; sourceTree = "<group>"; };
 		D1E1D4B91E3AAA89007BC01B /* DJRPasteboardProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJRPasteboardProxy.h; sourceTree = "<group>"; };
 		D1E1D4BA1E3AAA89007BC01B /* DJRPasteboardProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJRPasteboardProxy.m; sourceTree = "<group>"; };
 		D1E1D4BC1E3AAA89007BC01B /* DJRKeyboardTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJRKeyboardTools.h; sourceTree = "<group>"; };
@@ -237,7 +237,7 @@
 		49C9B1551E3B8F0B00E2540B /* RunPython */ = {
 			isa = PBXGroup;
 			children = (
-				49C9B1521E3B8F0200E2540B /* RunPython.h */,
+				D1B0E4811E3E026F009C9692 /* RunPython.h */,
 				49C9B1531E3B8F0200E2540B /* RunPython.m */,
 			);
 			name = RunPython;
