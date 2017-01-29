@@ -12,8 +12,7 @@
 		49C9B1391E3B630A00E2540B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49C9B1381E3B630A00E2540B /* Assets.xcassets */; };
 		49C9B13C1E3B630A00E2540B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49C9B13A1E3B630A00E2540B /* Main.storyboard */; };
 		49C9B1471E3B630A00E2540B /* CalendarizeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C9B1461E3B630A00E2540B /* CalendarizeTests.swift */; };
-		49C9B1511E3B843300E2540B /* dateparser in Resources */ = {isa = PBXBuildFile; fileRef = 49C9B14F1E3B82C300E2540B /* dateparser */; };
-		49C9B1541E3B8F0200E2540B /* runPython.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C9B1531E3B8F0200E2540B /* runPython.m */; };
+		49C9B1541E3B8F0200E2540B /* RunPython.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C9B1531E3B8F0200E2540B /* RunPython.m */; };
 		49C9B1571E3B92BF00E2540B /* Python.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49C9B1561E3B92BF00E2540B /* Python.framework */; };
 		BF808FF117153CC700513E3D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF808FF017153CC700513E3D /* Foundation.framework */; };
 		BF808FF617153CC700513E3D /* TouchTime.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BF808FF517153CC700513E3D /* TouchTime.h */; };
@@ -47,6 +46,8 @@
 		D1E1D4C41E3AAA89007BC01B /* DJRKeyboardTools.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E1D4BD1E3AAA89007BC01B /* DJRKeyboardTools.m */; };
 		D1E1D4C51E3AAA89007BC01B /* DJRKeyboardEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E1D4C01E3AAA89007BC01B /* DJRKeyboardEvents.m */; };
 		D1E1D4C61E3AAA89007BC01B /* DJRKeyboardEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E1D4C01E3AAA89007BC01B /* DJRKeyboardEvents.m */; };
+		D1E4867F1E3D739A007EC7AC /* RunPython.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C9B1531E3B8F0200E2540B /* RunPython.m */; };
+		D1F4C0CA1E3D2C2400C8F9DF /* dateparser in Resources */ = {isa = PBXBuildFile; fileRef = D1F4C0C91E3D2C2400C8F9DF /* dateparser */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -98,9 +99,8 @@
 		49C9B1421E3B630A00E2540B /* CalendarizeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalendarizeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		49C9B1461E3B630A00E2540B /* CalendarizeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarizeTests.swift; sourceTree = "<group>"; };
 		49C9B1481E3B630A00E2540B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		49C9B14F1E3B82C300E2540B /* dateparser */ = {isa = PBXFileReference; lastKnownFileType = folder; path = dateparser; sourceTree = "<group>"; };
-		49C9B1521E3B8F0200E2540B /* runPython.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = runPython.h; sourceTree = "<group>"; };
-		49C9B1531E3B8F0200E2540B /* runPython.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = runPython.m; sourceTree = "<group>"; };
+		49C9B1521E3B8F0200E2540B /* RunPython.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunPython.h; sourceTree = "<group>"; };
+		49C9B1531E3B8F0200E2540B /* RunPython.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunPython.m; sourceTree = "<group>"; };
 		49C9B1561E3B92BF00E2540B /* Python.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Python.framework; path = System/Library/Frameworks/Python.framework; sourceTree = SDKROOT; };
 		BF808FED17153CC700513E3D /* libCalendarize Lib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libCalendarize Lib.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF808FF017153CC700513E3D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -130,7 +130,7 @@
 		BF80903E17153DB600513E3D /* cpp_touchtime.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = cpp_touchtime.cpp; path = ../common/cpp_touchtime.cpp; sourceTree = "<group>"; };
 		BF80903F17153DB600513E3D /* cpp_touchtime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cpp_touchtime.h; path = ../common/cpp_touchtime.h; sourceTree = "<group>"; };
 		BF80904117153DF000513E3D /* TouchTime.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TouchTime.mm; sourceTree = "<group>"; };
-		D188F9051E390FA200FBA331 /* CalendarizeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalendarizeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D188F9051E390FA200FBA331 /* TouchTimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchTimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D188F9151E392F1C00FBA331 /* touchtime */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = touchtime; sourceTree = BUILT_PRODUCTS_DIR; };
 		D188F9171E392F1C00FBA331 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		D188F91C1E392FFD00FBA331 /* TouchTime-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "TouchTime-Bridging-Header.h"; path = "../TouchTime/TouchTime-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -150,6 +150,7 @@
 		D1E1D4BD1E3AAA89007BC01B /* DJRKeyboardTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJRKeyboardTools.m; sourceTree = "<group>"; };
 		D1E1D4BF1E3AAA89007BC01B /* DJRKeyboardEvents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJRKeyboardEvents.h; sourceTree = "<group>"; };
 		D1E1D4C01E3AAA89007BC01B /* DJRKeyboardEvents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJRKeyboardEvents.m; sourceTree = "<group>"; };
+		D1F4C0C91E3D2C2400C8F9DF /* dateparser */ = {isa = PBXFileReference; lastKnownFileType = folder; path = dateparser; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -227,8 +228,8 @@
 		49C9B1551E3B8F0B00E2540B /* RunPython */ = {
 			isa = PBXGroup;
 			children = (
-				49C9B1521E3B8F0200E2540B /* runPython.h */,
-				49C9B1531E3B8F0200E2540B /* runPython.m */,
+				49C9B1521E3B8F0200E2540B /* RunPython.h */,
+				49C9B1531E3B8F0200E2540B /* RunPython.m */,
 			);
 			name = RunPython;
 			sourceTree = "<group>";
@@ -236,7 +237,7 @@
 		BF808FE417153CC700513E3D = {
 			isa = PBXGroup;
 			children = (
-				49C9B14F1E3B82C300E2540B /* dateparser */,
+				D1F4C0C91E3D2C2400C8F9DF /* dateparser */,
 				D1E1D4B81E3AAA89007BC01B /* DJRPasteboardProxy */,
 				D1E1D4BB1E3AAA89007BC01B /* DJRKeyboardTools */,
 				D1E1D4BE1E3AAA89007BC01B /* DJRKeyboardEvents */,
@@ -258,7 +259,7 @@
 			isa = PBXGroup;
 			children = (
 				BF808FED17153CC700513E3D /* libCalendarize Lib.a */,
-				D188F9051E390FA200FBA331 /* CalendarizeTests.xctest */,
+				D188F9051E390FA200FBA331 /* TouchTimeTests.xctest */,
 				D188F9151E392F1C00FBA331 /* touchtime */,
 				D188F9261E39487600FBA331 /* Add Event from Selection.app */,
 				49C9B1321E3B630A00E2540B /* Calendarize.app */,
@@ -470,9 +471,9 @@
 			productReference = BF808FED17153CC700513E3D /* libCalendarize Lib.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		D188F9041E390FA200FBA331 /* CalendarizeTests */ = {
+		D188F9041E390FA200FBA331 /* TouchTimeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D188F90D1E390FA200FBA331 /* Build configuration list for PBXNativeTarget "CalendarizeTests" */;
+			buildConfigurationList = D188F90D1E390FA200FBA331 /* Build configuration list for PBXNativeTarget "TouchTimeTests" */;
 			buildPhases = (
 				D188F9011E390FA200FBA331 /* Sources */,
 				D188F9021E390FA200FBA331 /* Frameworks */,
@@ -483,9 +484,9 @@
 			dependencies = (
 				D188F90C1E390FA200FBA331 /* PBXTargetDependency */,
 			);
-			name = CalendarizeTests;
+			name = TouchTimeTests;
 			productName = TouchTimeTests;
-			productReference = D188F9051E390FA200FBA331 /* CalendarizeTests.xctest */;
+			productReference = D188F9051E390FA200FBA331 /* TouchTimeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		D188F9141E392F1C00FBA331 /* touchtime */ = {
@@ -574,7 +575,7 @@
 			projectRoot = "";
 			targets = (
 				BF808FEC17153CC700513E3D /* Calendarize Lib */,
-				D188F9041E390FA200FBA331 /* CalendarizeTests */,
+				D188F9041E390FA200FBA331 /* TouchTimeTests */,
 				D188F9141E392F1C00FBA331 /* touchtime */,
 				D188F9251E39487600FBA331 /* Add Event from Selection */,
 				49C9B1311E3B630A00E2540B /* Calendarize */,
@@ -611,9 +612,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49C9B1511E3B843300E2540B /* dateparser in Resources */,
 				D188F92D1E39487600FBA331 /* Assets.xcassets in Resources */,
 				D188F9301E39487600FBA331 /* Main.storyboard in Resources */,
+				D1F4C0CA1E3D2C2400C8F9DF /* dateparser in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -634,6 +635,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				49C9B1471E3B630A00E2540B /* CalendarizeTests.swift in Sources */,
+				D1E4867F1E3D739A007EC7AC /* RunPython.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -685,7 +687,7 @@
 				D1E1D4C61E3AAA89007BC01B /* DJRKeyboardEvents.m in Sources */,
 				D188F9351E394B0A00FBA331 /* TextSelection.m in Sources */,
 				D188F9291E39487600FBA331 /* AppDelegate.swift in Sources */,
-				49C9B1541E3B8F0200E2540B /* runPython.m in Sources */,
+				49C9B1541E3B8F0200E2540B /* RunPython.m in Sources */,
 				D1E1D4C21E3AAA89007BC01B /* DJRPasteboardProxy.m in Sources */,
 				D1E1D4C41E3AAA89007BC01B /* DJRKeyboardTools.m in Sources */,
 			);
@@ -1120,6 +1122,7 @@
 				49C9B14B1E3B630A00E2540B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		49C9B14C1E3B630A00E2540B /* Build configuration list for PBXNativeTarget "CalendarizeTests" */ = {
 			isa = XCConfigurationList;
@@ -1128,6 +1131,7 @@
 				49C9B14E1E3B630A00E2540B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BF808FE817153CC700513E3D /* Build configuration list for PBXProject "Calendarize" */ = {
 			isa = XCConfigurationList;
@@ -1147,7 +1151,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D188F90D1E390FA200FBA331 /* Build configuration list for PBXNativeTarget "CalendarizeTests" */ = {
+		D188F90D1E390FA200FBA331 /* Build configuration list for PBXNativeTarget "TouchTimeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D188F90E1E390FA200FBA331 /* Debug */,
