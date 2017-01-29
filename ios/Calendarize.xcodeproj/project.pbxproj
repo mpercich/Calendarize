@@ -12,7 +12,6 @@
 		49C9B1391E3B630A00E2540B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49C9B1381E3B630A00E2540B /* Assets.xcassets */; };
 		49C9B13C1E3B630A00E2540B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49C9B13A1E3B630A00E2540B /* Main.storyboard */; };
 		49C9B1471E3B630A00E2540B /* CalendarizeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C9B1461E3B630A00E2540B /* CalendarizeTests.swift */; };
-		49C9B1541E3B8F0200E2540B /* RunPython.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C9B1531E3B8F0200E2540B /* RunPython.m */; };
 		49C9B1571E3B92BF00E2540B /* Python.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49C9B1561E3B92BF00E2540B /* Python.framework */; };
 		BF808FF117153CC700513E3D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF808FF017153CC700513E3D /* Foundation.framework */; };
 		BF808FF617153CC700513E3D /* TouchTime.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BF808FF517153CC700513E3D /* TouchTime.h */; };
@@ -40,8 +39,11 @@
 		D188F9301E39487600FBA331 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D188F92E1E39487600FBA331 /* Main.storyboard */; };
 		D188F9351E394B0A00FBA331 /* TextSelection.m in Sources */ = {isa = PBXBuildFile; fileRef = D188F91F1E39441A00FBA331 /* TextSelection.m */; };
 		D188F94A1E3959FA00FBA331 /* NSPasteboard+SaveRestore.m in Sources */ = {isa = PBXBuildFile; fileRef = D188F9481E39581100FBA331 /* NSPasteboard+SaveRestore.m */; };
-		D1B0E47A1E3DF6BF009C9692 /* Python.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49C9B1561E3B92BF00E2540B /* Python.framework */; };
-		D1B0E47F1E3DFDBF009C9692 /* RunPython.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C9B1531E3B8F0200E2540B /* RunPython.m */; };
+		D1B0E4821E3E0490009C9692 /* RunPython.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C9B1531E3B8F0200E2540B /* RunPython.m */; };
+		D1B0E4871E3E12C2009C9692 /* RunPython.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C9B1531E3B8F0200E2540B /* RunPython.m */; };
+		D1B0E48A1E3E1440009C9692 /* dateparser in Resources */ = {isa = PBXBuildFile; fileRef = D1F4C0C91E3D2C2400C8F9DF /* dateparser */; };
+		D1B0E48C1E3E1526009C9692 /* Python.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49C9B1561E3B92BF00E2540B /* Python.framework */; };
+		D1B0E48E1E3E15DA009C9692 /* Python.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49C9B1561E3B92BF00E2540B /* Python.framework */; };
 		D1E1D4C11E3AAA89007BC01B /* DJRPasteboardProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E1D4BA1E3AAA89007BC01B /* DJRPasteboardProxy.m */; };
 		D1E1D4C21E3AAA89007BC01B /* DJRPasteboardProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E1D4BA1E3AAA89007BC01B /* DJRPasteboardProxy.m */; };
 		D1E1D4C31E3AAA89007BC01B /* DJRKeyboardTools.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E1D4BD1E3AAA89007BC01B /* DJRKeyboardTools.m */; };
@@ -166,6 +168,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1B0E48C1E3E1526009C9692 /* Python.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,7 +176,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1B0E47A1E3DF6BF009C9692 /* Python.framework in Frameworks */,
+				D1B0E48E1E3E15DA009C9692 /* Python.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -552,7 +555,7 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = FBBFZNEHZV;
 						ProvisioningStyle = Automatic;
-						TestTargetID = D188F9251E39487600FBA331;
+						TestTargetID = 49C9B1311E3B630A00E2540B;
 					};
 					D188F9041E390FA200FBA331 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -601,6 +604,7 @@
 			files = (
 				49C9B1391E3B630A00E2540B /* Assets.xcassets in Resources */,
 				49C9B13C1E3B630A00E2540B /* Main.storyboard in Resources */,
+				D1B0E48A1E3E1440009C9692 /* dateparser in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -645,7 +649,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				49C9B1471E3B630A00E2540B /* CalendarizeTests.swift in Sources */,
-				D1B0E47F1E3DFDBF009C9692 /* RunPython.m in Sources */,
+				D1B0E4821E3E0490009C9692 /* RunPython.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -697,7 +701,7 @@
 				D1E1D4C61E3AAA89007BC01B /* DJRKeyboardEvents.m in Sources */,
 				D188F9351E394B0A00FBA331 /* TextSelection.m in Sources */,
 				D188F9291E39487600FBA331 /* AppDelegate.swift in Sources */,
-				49C9B1541E3B8F0200E2540B /* RunPython.m in Sources */,
+				D1B0E4871E3E12C2009C9692 /* RunPython.m in Sources */,
 				D1E1D4C21E3AAA89007BC01B /* DJRPasteboardProxy.m in Sources */,
 				D1E1D4C41E3AAA89007BC01B /* DJRKeyboardTools.m in Sources */,
 			);
@@ -773,6 +777,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = mpercich.Calendarize;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
@@ -801,6 +806,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = mpercich.Calendarize;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 3.0;
 			};
@@ -831,7 +837,7 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "TouchTime/TouchTime-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Add Event from Selection.app/Contents/MacOS/Add Event from Selection";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Calendarize.app/Contents/MacOS/Calendarize";
 			};
 			name = Debug;
 		};
@@ -861,7 +867,7 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "TouchTime/TouchTime-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Add Event from Selection.app/Contents/MacOS/Add Event from Selection";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Calendarize.app/Contents/MacOS/Calendarize";
 			};
 			name = Release;
 		};

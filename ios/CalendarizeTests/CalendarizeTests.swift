@@ -24,7 +24,7 @@ class CalendarizeTests: XCTestCase {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
         let pythonPath = Bundle.main.path(forResource: "python", ofType: nil, inDirectory: "dateparser/bin")
-        let result = RunPython.runPythonCode("import dateparser; print(dateparser.parse('17 febbraio ore 6pm', settings={'SKIP_TOKENS': ['alle', 'ore']}))", withPythonPath: pythonPath!)
+        let result = RunPython.runPythonCode("import dateparser; print(dateparser.parse(" + "\"17 Febbraio 6PM\", settings={'SKIP_TOKENS': ['alle', 'ore']}))", withPythonPath: pythonPath!)
         XCTAssertEqual("2017-02-17 18:00:00\n", result!);
     }
     

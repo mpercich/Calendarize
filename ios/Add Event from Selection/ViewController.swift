@@ -17,7 +17,7 @@ class ViewController: NSViewController {
         //DJRKeyboardEvents.sendCommandC()
         //selection.stringValue = DJRPasteboardProxy.selectedText()
         if let pythonPath = Bundle.main.path(forResource: "python", ofType: nil, inDirectory: "dateparser/bin") {
-            if let result = RunPython.runPythonCode("import dateparser; print(dateparser.parse(" + "'\(selection.stringValue)', settings={'SKIP_TOKENS': ['alle', 'ore']}))", withPythonPath: pythonPath) as String? {
+            if let result = RunPython.runPythonCode("import dateparser; print(dateparser.parse(" + "\"\(selection.stringValue)\", settings={'SKIP_TOKENS': ['alle', 'ore']}))", withPythonPath: pythonPath) as String? {
                 print(result)
                 date.stringValue = result
             }
