@@ -7,8 +7,6 @@
 //
 
 import XCTest
-import Python
-//@testable import "Add Event from Selection"
 
 class CalendarizeTests: XCTestCase {
     
@@ -33,7 +31,7 @@ class CalendarizeTests: XCTestCase {
     func testPerformanceExample() {
         // This is an example of a performance test case.
         self.measure {
-            // Put the code you want to measure the time of here.
+            self.testExample();
         }
     }
     

@@ -40,13 +40,14 @@
 		D188F9301E39487600FBA331 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D188F92E1E39487600FBA331 /* Main.storyboard */; };
 		D188F9351E394B0A00FBA331 /* TextSelection.m in Sources */ = {isa = PBXBuildFile; fileRef = D188F91F1E39441A00FBA331 /* TextSelection.m */; };
 		D188F94A1E3959FA00FBA331 /* NSPasteboard+SaveRestore.m in Sources */ = {isa = PBXBuildFile; fileRef = D188F9481E39581100FBA331 /* NSPasteboard+SaveRestore.m */; };
+		D1B0E47A1E3DF6BF009C9692 /* Python.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49C9B1561E3B92BF00E2540B /* Python.framework */; };
+		D1B0E47F1E3DFDBF009C9692 /* RunPython.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C9B1531E3B8F0200E2540B /* RunPython.m */; };
 		D1E1D4C11E3AAA89007BC01B /* DJRPasteboardProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E1D4BA1E3AAA89007BC01B /* DJRPasteboardProxy.m */; };
 		D1E1D4C21E3AAA89007BC01B /* DJRPasteboardProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E1D4BA1E3AAA89007BC01B /* DJRPasteboardProxy.m */; };
 		D1E1D4C31E3AAA89007BC01B /* DJRKeyboardTools.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E1D4BD1E3AAA89007BC01B /* DJRKeyboardTools.m */; };
 		D1E1D4C41E3AAA89007BC01B /* DJRKeyboardTools.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E1D4BD1E3AAA89007BC01B /* DJRKeyboardTools.m */; };
 		D1E1D4C51E3AAA89007BC01B /* DJRKeyboardEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E1D4C01E3AAA89007BC01B /* DJRKeyboardEvents.m */; };
 		D1E1D4C61E3AAA89007BC01B /* DJRKeyboardEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E1D4C01E3AAA89007BC01B /* DJRKeyboardEvents.m */; };
-		D1E4867F1E3D739A007EC7AC /* RunPython.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C9B1531E3B8F0200E2540B /* RunPython.m */; };
 		D1F4C0CA1E3D2C2400C8F9DF /* dateparser in Resources */ = {isa = PBXBuildFile; fileRef = D1F4C0C91E3D2C2400C8F9DF /* dateparser */; };
 /* End PBXBuildFile section */
 
@@ -64,6 +65,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = BF808FEC17153CC700513E3D;
 			remoteInfo = TouchTime;
+		};
+		D1B0E47C1E3DF9CA009C9692 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF808FE517153CC700513E3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D188F9251E39487600FBA331;
+			remoteInfo = "Add Event from Selection";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -165,6 +173,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1B0E47A1E3DF6BF009C9692 /* Python.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,6 +457,7 @@
 			);
 			dependencies = (
 				49C9B1441E3B630A00E2540B /* PBXTargetDependency */,
+				D1B0E47D1E3DF9CA009C9692 /* PBXTargetDependency */,
 			);
 			name = CalendarizeTests;
 			productName = CalendarizeTests;
@@ -542,7 +552,7 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = FBBFZNEHZV;
 						ProvisioningStyle = Automatic;
-						TestTargetID = 49C9B1311E3B630A00E2540B;
+						TestTargetID = D188F9251E39487600FBA331;
 					};
 					D188F9041E390FA200FBA331 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -635,7 +645,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				49C9B1471E3B630A00E2540B /* CalendarizeTests.swift in Sources */,
-				D1E4867F1E3D739A007EC7AC /* RunPython.m in Sources */,
+				D1B0E47F1E3DFDBF009C9692 /* RunPython.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -705,6 +715,11 @@
 			isa = PBXTargetDependency;
 			target = BF808FEC17153CC700513E3D /* Calendarize Lib */;
 			targetProxy = D188F90B1E390FA200FBA331 /* PBXContainerItemProxy */;
+		};
+		D1B0E47D1E3DF9CA009C9692 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D188F9251E39487600FBA331 /* Add Event from Selection */;
+			targetProxy = D1B0E47C1E3DF9CA009C9692 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -795,7 +810,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -814,9 +828,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = mpercich.CalendarizeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "TouchTime/TouchTime-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Calendarize.app/Contents/MacOS/Calendarize";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Add Event from Selection.app/Contents/MacOS/Add Event from Selection";
 			};
 			name = Debug;
 		};
@@ -824,7 +839,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -844,9 +858,10 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = mpercich.CalendarizeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TouchTime/TouchTime-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Calendarize.app/Contents/MacOS/Calendarize";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Add Event from Selection.app/Contents/MacOS/Add Event from Selection";
 			};
 			name = Release;
 		};
