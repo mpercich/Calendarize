@@ -44,6 +44,8 @@
 		D1B0E48E1E3E15DA009C9692 /* Python.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49C9B1561E3B92BF00E2540B /* Python.framework */; };
 		D1B0E49D1E3E18D2009C9692 /* RunPython.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B0E49C1E3E18D2009C9692 /* RunPython.m */; };
 		D1B0E49E1E3E18D2009C9692 /* RunPython.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B0E49C1E3E18D2009C9692 /* RunPython.m */; };
+		D1B0E4A01E3E337D009C9692 /* DateparserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B0E49F1E3E337D009C9692 /* DateparserService.swift */; };
+		D1B0E4A11E3E373A009C9692 /* RunPython.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B0E49C1E3E18D2009C9692 /* RunPython.m */; };
 		D1E1D4C11E3AAA89007BC01B /* DJRPasteboardProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E1D4BA1E3AAA89007BC01B /* DJRPasteboardProxy.m */; };
 		D1E1D4C21E3AAA89007BC01B /* DJRPasteboardProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E1D4BA1E3AAA89007BC01B /* DJRPasteboardProxy.m */; };
 		D1E1D4C31E3AAA89007BC01B /* DJRKeyboardTools.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E1D4BD1E3AAA89007BC01B /* DJRKeyboardTools.m */; };
@@ -109,7 +111,6 @@
 		49C9B1421E3B630A00E2540B /* CalendarizeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalendarizeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		49C9B1461E3B630A00E2540B /* CalendarizeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarizeTests.swift; sourceTree = "<group>"; };
 		49C9B1481E3B630A00E2540B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		49C9B1531E3B8F0200E2540B /* RunPython.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunPython.m; sourceTree = "<group>"; };
 		49C9B1561E3B92BF00E2540B /* Python.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Python.framework; path = System/Library/Frameworks/Python.framework; sourceTree = SDKROOT; };
 		BF808FED17153CC700513E3D /* libCalendarize Lib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libCalendarize Lib.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF808FF017153CC700513E3D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -153,9 +154,9 @@
 		D188F9311E39487600FBA331 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D188F9471E39581100FBA331 /* NSPasteboard+SaveRestore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSPasteboard+SaveRestore.h"; sourceTree = "<group>"; };
 		D188F9481E39581100FBA331 /* NSPasteboard+SaveRestore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSPasteboard+SaveRestore.m"; sourceTree = "<group>"; };
-		D1B0E4811E3E026F009C9692 /* RunPython.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunPython.h; sourceTree = "<group>"; };
 		D1B0E49B1E3E18D2009C9692 /* RunPython.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunPython.h; sourceTree = "<group>"; };
 		D1B0E49C1E3E18D2009C9692 /* RunPython.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunPython.m; sourceTree = "<group>"; };
+		D1B0E49F1E3E337D009C9692 /* DateparserService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateparserService.swift; sourceTree = "<group>"; };
 		D1E1D4B91E3AAA89007BC01B /* DJRPasteboardProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJRPasteboardProxy.h; sourceTree = "<group>"; };
 		D1E1D4BA1E3AAA89007BC01B /* DJRPasteboardProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJRPasteboardProxy.m; sourceTree = "<group>"; };
 		D1E1D4BC1E3AAA89007BC01B /* DJRKeyboardTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJRKeyboardTools.h; sourceTree = "<group>"; };
@@ -226,6 +227,7 @@
 				49C9B1381E3B630A00E2540B /* Assets.xcassets */,
 				49C9B13A1E3B630A00E2540B /* Main.storyboard */,
 				49C9B13D1E3B630A00E2540B /* Info.plist */,
+				D1B0E49F1E3E337D009C9692 /* DateparserService.swift */,
 			);
 			path = Calendarize;
 			sourceTree = "<group>";
@@ -237,15 +239,6 @@
 				49C9B1481E3B630A00E2540B /* Info.plist */,
 			);
 			path = CalendarizeTests;
-			sourceTree = "<group>";
-		};
-		49C9B1551E3B8F0B00E2540B /* RunPython */ = {
-			isa = PBXGroup;
-			children = (
-				D1B0E4811E3E026F009C9692 /* RunPython.h */,
-				49C9B1531E3B8F0200E2540B /* RunPython.m */,
-			);
-			name = RunPython;
 			sourceTree = "<group>";
 		};
 		BF808FE417153CC700513E3D = {
@@ -390,7 +383,6 @@
 				D188F92C1E39487600FBA331 /* Assets.xcassets */,
 				D188F92E1E39487600FBA331 /* Main.storyboard */,
 				D188F9311E39487600FBA331 /* Info.plist */,
-				49C9B1551E3B8F0B00E2540B /* RunPython */,
 			);
 			path = "Add Event from Selection";
 			sourceTree = "<group>";
@@ -652,7 +644,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				49C9B1371E3B630A00E2540B /* ViewController.swift in Sources */,
+				D1B0E4A11E3E373A009C9692 /* RunPython.m in Sources */,
 				49C9B1351E3B630A00E2540B /* AppDelegate.swift in Sources */,
+				D1B0E4A01E3E337D009C9692 /* DateparserService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -789,7 +783,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = mpercich.Calendarize;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "TouchTime/TouchTime-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
@@ -818,7 +812,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = mpercich.Calendarize;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "TouchTime/TouchTime-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 3.0;
 			};
