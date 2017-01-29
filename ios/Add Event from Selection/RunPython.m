@@ -12,7 +12,7 @@
 @implementation RunPython
 
 + (NSString*)runPythonCode:(NSString*)code withPythonPath:(NSString*)path {
-    Py_SetProgramName(path.UTF8String);
+    Py_SetProgramName((char *)path.UTF8String);
     Py_Initialize();
     PyObject *sys = PyImport_ImportModule("sys");
     PyObject *out = PyFile_FromString("python_out", "w+");
