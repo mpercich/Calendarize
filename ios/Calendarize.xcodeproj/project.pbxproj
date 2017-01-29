@@ -42,8 +42,8 @@
 		D1B0E48A1E3E1440009C9692 /* dateparser in Resources */ = {isa = PBXBuildFile; fileRef = D1F4C0C91E3D2C2400C8F9DF /* dateparser */; };
 		D1B0E48C1E3E1526009C9692 /* Python.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49C9B1561E3B92BF00E2540B /* Python.framework */; };
 		D1B0E48E1E3E15DA009C9692 /* Python.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49C9B1561E3B92BF00E2540B /* Python.framework */; };
-		D1B0E4971E3E175D009C9692 /* RunPython.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B0E4911E3E16B9009C9692 /* RunPython.m */; };
-		D1B0E4991E3E17A6009C9692 /* RunPython.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B0E4911E3E16B9009C9692 /* RunPython.m */; };
+		D1B0E49D1E3E18D2009C9692 /* RunPython.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B0E49C1E3E18D2009C9692 /* RunPython.m */; };
+		D1B0E49E1E3E18D2009C9692 /* RunPython.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B0E49C1E3E18D2009C9692 /* RunPython.m */; };
 		D1E1D4C11E3AAA89007BC01B /* DJRPasteboardProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E1D4BA1E3AAA89007BC01B /* DJRPasteboardProxy.m */; };
 		D1E1D4C21E3AAA89007BC01B /* DJRPasteboardProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E1D4BA1E3AAA89007BC01B /* DJRPasteboardProxy.m */; };
 		D1E1D4C31E3AAA89007BC01B /* DJRKeyboardTools.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E1D4BD1E3AAA89007BC01B /* DJRKeyboardTools.m */; };
@@ -154,8 +154,8 @@
 		D188F9471E39581100FBA331 /* NSPasteboard+SaveRestore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSPasteboard+SaveRestore.h"; sourceTree = "<group>"; };
 		D188F9481E39581100FBA331 /* NSPasteboard+SaveRestore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSPasteboard+SaveRestore.m"; sourceTree = "<group>"; };
 		D1B0E4811E3E026F009C9692 /* RunPython.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunPython.h; sourceTree = "<group>"; };
-		D1B0E4901E3E16B9009C9692 /* RunPython.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunPython.h; sourceTree = "<group>"; };
-		D1B0E4911E3E16B9009C9692 /* RunPython.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunPython.m; sourceTree = "<group>"; };
+		D1B0E49B1E3E18D2009C9692 /* RunPython.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunPython.h; sourceTree = "<group>"; };
+		D1B0E49C1E3E18D2009C9692 /* RunPython.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunPython.m; sourceTree = "<group>"; };
 		D1E1D4B91E3AAA89007BC01B /* DJRPasteboardProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJRPasteboardProxy.h; sourceTree = "<group>"; };
 		D1E1D4BA1E3AAA89007BC01B /* DJRPasteboardProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJRPasteboardProxy.m; sourceTree = "<group>"; };
 		D1E1D4BC1E3AAA89007BC01B /* DJRKeyboardTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJRKeyboardTools.h; sourceTree = "<group>"; };
@@ -262,7 +262,7 @@
 				D188F9201E39442600FBA331 /* TextSelection */,
 				D188F9161E392F1C00FBA331 /* touchtime */,
 				D188F9271E39487600FBA331 /* Add Event from Selection */,
-				D1B0E48F1E3E16B9009C9692 /* RunPython */,
+				D1B0E49A1E3E18D1009C9692 /* RunPython */,
 				49C9B1331E3B630A00E2540B /* Calendarize */,
 				49C9B1451E3B630A00E2540B /* CalendarizeTests */,
 				BF808FEF17153CC700513E3D /* Frameworks */,
@@ -404,14 +404,13 @@
 			path = "NSPasteboard+SaveRestore";
 			sourceTree = "<group>";
 		};
-		D1B0E48F1E3E16B9009C9692 /* RunPython */ = {
+		D1B0E49A1E3E18D1009C9692 /* RunPython */ = {
 			isa = PBXGroup;
 			children = (
-				D1B0E4901E3E16B9009C9692 /* RunPython.h */,
-				D1B0E4911E3E16B9009C9692 /* RunPython.m */,
+				D1B0E49B1E3E18D2009C9692 /* RunPython.h */,
+				D1B0E49C1E3E18D2009C9692 /* RunPython.m */,
 			);
-			name = RunPython;
-			path = touchtime/RunPython;
+			path = RunPython;
 			sourceTree = "<group>";
 		};
 		D1E1D4B81E3AAA89007BC01B /* DJRPasteboardProxy */ = {
@@ -662,7 +661,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				49C9B1471E3B630A00E2540B /* CalendarizeTests.swift in Sources */,
-				D1B0E4991E3E17A6009C9692 /* RunPython.m in Sources */,
+				D1B0E49E1E3E18D2009C9692 /* RunPython.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -714,7 +713,7 @@
 				D1E1D4C61E3AAA89007BC01B /* DJRKeyboardEvents.m in Sources */,
 				D188F9351E394B0A00FBA331 /* TextSelection.m in Sources */,
 				D188F9291E39487600FBA331 /* AppDelegate.swift in Sources */,
-				D1B0E4971E3E175D009C9692 /* RunPython.m in Sources */,
+				D1B0E49D1E3E18D2009C9692 /* RunPython.m in Sources */,
 				D1E1D4C21E3AAA89007BC01B /* DJRPasteboardProxy.m in Sources */,
 				D1E1D4C41E3AAA89007BC01B /* DJRKeyboardTools.m in Sources */,
 			);
