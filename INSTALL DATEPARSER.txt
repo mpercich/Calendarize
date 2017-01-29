@@ -1,3 +1,11 @@
+create and install a standalone Python package including Apple Python:
+
 pip download dateparser -d . --no-binary :all:
 platter build dateparser-0.5.1
 ./install.sh -p /usr/bin/python /Users/michele/Projects/TouchTime/ios/dateparser/
+
+
+following is not needed:
+
+brew install boost --c++11
+
