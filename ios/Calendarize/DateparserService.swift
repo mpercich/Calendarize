@@ -12,11 +12,12 @@ import AppKit
 class DateparserService {
     
     @objc public func parseString(_ pboard: NSPasteboard!, userData: String!, error: AutoreleasingUnsafeMutablePointer<NSString?>) {
-    
-        guard let date = pboard.propertyList(forType: NSPasteboardTypeString) as? String else { return }
-        let pythonPath = Bundle.main.path(forResource: "python", ofType: nil, inDirectory: "dateparser/bin")
-        if let result = RunPython.runPythonCode("import dateparser; print(dateparser.parse(" + "\"\(date)\", settings={'SKIP_TOKENS': ['alle', 'ore']}))", withPythonPath: pythonPath!) {
-            print(result)
+        let strArr = pboard.readObjects(forClasses: [NSString.self], options: nil)
+        if let date = (strArr?[0] as? String) {
+            let pythonPath = Bundle.main.path(forResource: "python", ofType: nil, inDirectory: "dateparser/bin")
+            if let result = RunPython.runPythonCode("import dateparser; print(dateparser.parse(" + "\"\(date)\", settings={'SKIP_TOKENS': ['alle', 'ore']}))", withPythonPath: pythonPath!) {
+                print(date + ": " + result)
+            }
             //pboard.clearContents()
             //pboard.writeObjects([result as NSPasteboardWriting])
         }
