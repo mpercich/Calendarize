@@ -42,7 +42,7 @@
 			<string>Calendarize</string>
 			<key>NSSendTypes</key>
 			<array>
-				<string>NSPasteboardTypeRTF</string>
+				<string>public.text</string>
 			</array>
 		</dict>
 	</array>
