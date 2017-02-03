@@ -34,7 +34,7 @@
 			<key>NSMenuItem</key>
 			<dict>
 				<key>default</key>
-				<string>Text/Add Event to Calendar</string>
+				<string>Add Event to Calendar</string>
 			</dict>
 			<key>NSMessage</key>
 			<string>parseString</string>
